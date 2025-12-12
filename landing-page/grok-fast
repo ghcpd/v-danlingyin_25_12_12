@@ -1,0 +1,153 @@
+grok-fast：：
+
+User: You are a senior front-end engineer specialized in React + TypeScript + TailwindCSS.
+Your task is to create 3 complete UI implementations from scratch based on the provided input_ui_spec.txt.
+This task belongs to Category: UI Case → “we need to test 3 test cases for creating apps from scratch”.
+You must follow all requirements below.
+--------------------------------------------------------------------------------
+Your responsibilities:
+1.Read and understand the input_ui_spec.txt
+- Extract UI components
+- Extract layout rules
+- Extract Christmas theme styling requirements
+- Extract interactions
+- Extract assets needed (icons, images, etc.)
+--------------------------------------------------------------------------------
+1.Generate 3 full UI implementations from scratch:
+(1) A responsive Landing Page
+(2) A simple Multi-section Page (Hero + Features + CTA)
+(3) A reusable UI Component Library (buttons, cards, badges)
+Each implementation must include:
+- src/ folder
+- pages or components
+- Full React + TS + Tailwind code
+- No missing files
+- No invalid imports
+- All code must be runnable with pnpm
+--------------------------------------------------------------------------------
+1.Produce the project file structure (tree)
+Must include:
+- package.json (pnpm-ready)
+- tailwind.config.js
+- postcss.config.js
+- tsconfig.json
+- index.html or root entry
+- src/components/*
+- src/pages/*
+- public assets
+--------------------------------------------------------------------------------
+1.Generate the following 3 test cases (very important):
+TEST CASE 1 — Project bootstrapping
+- User runs: pnpm install
+- User runs: pnpm dev
+TEST CASE 2 — UI rendering
+- All components render without console errors
+- All sections appear: Hero / Countdown / Gift Grid / Footer
+- Styles match Christmas theme (colors, spacing, fonts)
+TEST CASE 3 — Responsiveness
+- Layout adapts to: mobile (375px), tablet (768px), desktop (1280px)
+- No overflow
+- No broken layout
+- Tailwind breakpoints used correctly
+--------------------------------------------------------------------------------
+1.Output a README.md containing:
+- How to install (pnpm)
+- How to run
+- What the 3 test cases validate
+- A preview of components
+- Any dependencies used
+--------------------------------------------------------------------------------
+Rules for the Model:
+- MUST NOT hallucinate components not described in input_ui_spec.txt
+- MUST NOT output frameworks other than React + TS + Tailwind
+- MUST NOT include external UI libraries (no shadcn, no MUI)
+- MUST keep file paths correct and minimal
+- MUST produce working code with no syntax errors
+- MUST ensure all 3 implementations are unique
+--------------------------------------------------------------------------------
+Deliverables:
+1.Full file structure
+2.Complete code for all files
+3.3 UI builds
+4.README.md
+5.3 detailed UI test cases
+
+GitHub Copilot: Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/multi-section-page)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/component-library)
+
+Create the responsive landing page implementation
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/src/components)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/public)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/package.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/tailwind.config.js)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/postcss.config.js)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/tsconfig.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/index.html)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/src/index.css)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/src/main.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/src/App.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/src/components/Hero.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/src/components/Countdown.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/src/components/GiftGrid.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/src/components/Footer.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/public/vite.svg)
+
+Ran terminal command: cd landing-page ; pnpm install
+
+Ran terminal command: cd landing-page ; pnpm build
+
+Ran terminal command: cd landing-page ; pnpm lint
+
+Create the simple multi-section page implementation
+
+Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/package.json)
+
+Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/index.html)
+
+Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/tsconfig.json)
+
+Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/tailwind.config.js)
+
+Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/postcss.config.js)
+
+Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/src/index.css)
+
+Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/src/main.tsx)
+
+Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/src/App.tsx)
+
+Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/src/components/Hero.tsx)
+
+Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/src/components/GiftGrid.tsx)
+
+Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/landing-page/src/components/Footer.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/multi-section-page)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/multi-section-page/public)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/multi-section-page/src)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/multi-section-page/src/components)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1212/grok-fast/multi-section-page/package.json)
+
+Made changes.

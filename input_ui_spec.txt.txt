@@ -1,0 +1,46 @@
+UI Theme: Christmas Landing Page  
+Goal: A festive promotional page for a Christmas event.
+
+Sections required:
+1. Hero Section
+   - Big title: "Christmas Wonderland 2025"
+   - Subtitle: "Celebrate the magic with us"
+   - Button: "Join Event"
+   - Falling snow animation (simple CSS acceptable)
+
+2. Countdown Section
+   - Countdown to December 25
+   - Days / Hours / Minutes / Seconds UI blocks
+
+3. Gift Grid Section
+   - 6 gift cards
+   - Each card shows:
+     - Gift image
+     - Gift title
+     - Short description
+   - Hover: slight scale-up
+ 
+4. Footer
+   - "Made with ❤️ for the holiday season"
+   - Social icons: Facebook, Instagram
+
+Theme constraints:
+- Red (#C53030) / Green (#2F855A) / Gold (#D69E2E)
+- Tailwind spacing + shadows
+- Fully responsive
+
+Interactions required:
+- Button hover glow
+- Countdown updates every second
+- Cards hover animation
+
+Performance constraints:
+- Pure React + TS + Tailwind
+- No external animation libraries
+- No external UI frameworks
+
+Output must be:
+- Clean, readable
+- Minimal but festive
+- Strictly React + TS + Tailwind
+
