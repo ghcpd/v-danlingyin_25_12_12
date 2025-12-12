@@ -1,0 +1,4 @@
+﻿packages:
+  - 'landing'
+  - 'multi-section'
+  - 'component-library'
