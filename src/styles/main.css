@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --red: #C53030;
+  --green: #2F855A;
+  --gold: #D69E2E;
+}
+
+/* Global tiny festive touches */
+.hero-snow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.hero-snow span {
+  position: absolute;
+  top: -10vh;
+  width: 8px;
+  height: 8px;
+  background: rgba(255,255,255,0.9);
+  border-radius: 999px;
+  opacity: 0.9;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.3));
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  to { transform: translateY(120vh); opacity: 0.8 }
+}
+
+/* make snow particles with different speeds and horizontal positions */
+.hero-snow span:nth-child(1){ left: 5%; animation-duration: 12s; animation-delay: 0s; transform: translateY(-10vh) }
+.hero-snow span:nth-child(2){ left: 18%; animation-duration: 18s; animation-delay: -2s }
+.hero-snow span:nth-child(3){ left: 28%; animation-duration: 10s; animation-delay: -4s }
+.hero-snow span:nth-child(4){ left: 38%; animation-duration: 14s; animation-delay: -6s }
+.hero-snow span:nth-child(5){ left: 48%; animation-duration: 16s; animation-delay: -8s }
+.hero-snow span:nth-child(6){ left: 58%; animation-duration: 11s; animation-delay: -3s }
+.hero-snow span:nth-child(7){ left: 68%; animation-duration: 20s; animation-delay: -5s }
+.hero-snow span:nth-child(8){ left: 78%; animation-duration: 13s; animation-delay: -7s }
+.hero-snow span:nth-child(9){ left: 88%; animation-duration: 17s; animation-delay: -1s }
+.hero-snow span:nth-child(10){ left: 92%; animation-duration: 15s; animation-delay: -9s }
+.hero-snow span:nth-child(11){ left: 12%; animation-duration: 9s; animation-delay: -3s }
+.hero-snow span:nth-child(12){ left: 22%; animation-duration: 19s; animation-delay: -11s }
+.hero-snow span:nth-child(13){ left: 32%; animation-duration: 12s; animation-delay: -6s }
+.hero-snow span:nth-child(14){ left: 42%; animation-duration: 14s; animation-delay: -2s }
+.hero-snow span:nth-child(15){ left: 52%; animation-duration: 10s; animation-delay: -4s }
+.hero-snow span:nth-child(16){ left: 62%; animation-duration: 18s; animation-delay: -8s }
+.hero-snow span:nth-child(17){ left: 72%; animation-duration: 16s; animation-delay: -12s }
+.hero-snow span:nth-child(18){ left: 82%; animation-duration: 11s; animation-delay: -6s }
+.hero-snow span:nth-child(19){ left: 92%; animation-duration: 21s; animation-delay: -1s }
+.hero-snow span:nth-child(20){ left: 2%; animation-duration: 17s; animation-delay: -13s }
+
+/* Button glow */
+.btn-glow {
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.btn-glow:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 10px 40px rgba(214,158,46,0.16);
+}
+
+/* Card hover */
+.card-hover {
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.card-hover:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(2,6,23,0.6);
+}
+
+/* small util for festive underline */
+.festive-underline {
+  background: linear-gradient(90deg, rgba(197,48,48,1) 0%, rgba(214,158,46,1) 50%, rgba(47,133,90,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* small responsive helpers */
+.container-max { max-width: 1200px; margin-inline: auto }
