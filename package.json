@@ -1,0 +1,17 @@
+﻿{
+  "name": "oswe-mini-m22a5s330",
+  "private": true,
+  "packageManager": "pnpm@8.8.0",
+  "workspaces": [
+    "landing",
+    "multi-section",
+    "component-library"
+  ],
+  "scripts": {
+    "install:all": "pnpm -w install",
+    "dev": "pnpm -w -r dev",
+    "dev:landing": "pnpm --filter landing dev",
+    "dev:multi-section": "pnpm --filter multi-section dev",
+    "dev:component-library": "pnpm --filter component-library dev"
+  }
+}

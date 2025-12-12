@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{ --red:#C53030; --green:#2F855A; --gold:#D69E2E }
+
+body{font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto}
+
+.bg-christmas-red{ background-color: #C53030 }
+.bg-christmas-green{ background-color: #2F855A }
+.bg-christmas-gold{ background-color: #D69E2E }

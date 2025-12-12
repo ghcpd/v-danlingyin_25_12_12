@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{ --red: #C53030; --green: #2F855A; --gold: #D69E2E; }
+
+body{font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto}
+
+.bg-christmas-gold\/10{ background-color: rgba(214,158,46,0.1); }
+
+/* Responsive spacing and subtle festive shadow */
+.card-shadow{ box-shadow: 0 8px 30px rgba(197,100,30,0.08); }
