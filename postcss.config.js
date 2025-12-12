@@ -1,0 +1,1 @@
+/* postcss.config.js renamed to postcss.config.cjs for compatibility with ESM package type */

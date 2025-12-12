@@ -1,0 +1,1 @@
+/* tailwind.config.js renamed to tailwind.config.cjs for compatibility with ESM package type */
